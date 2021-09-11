@@ -142,7 +142,7 @@ def dijkstra_planning(sx, sy, gx, gy, road_map, sample_x, sample_y):
 
     while True:
         if not open_set:
-            print("Không tìm được")
+            print("Not found")
             path_found = False
             break
 

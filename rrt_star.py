@@ -291,7 +291,7 @@ def main(gx=20, gy=30):
     path = rrt.planning(animation=show_animation)
 
     if path is None:
-        print("Không tìm được")
+        print("Not found")
     else:
         print("Xong!!")
 

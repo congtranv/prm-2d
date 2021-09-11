@@ -161,7 +161,7 @@ def dijkstra_planning(sx, sy, gx, gy, road_map, sample_x, sample_y):
             plt.pause(0.001)
 
         if c_id == (len(road_map) - 1):
-            print("Đã tìm được đích!")
+            print("Goal found")
             goal_node.parent_index = current.parent_index
             goal_node.cost = current.cost
             break
